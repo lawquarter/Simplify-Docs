@@ -61,10 +61,10 @@ def ocr_image(image):
     return text
 
 def main():
-    st.title('Simplifly')
+    st.title('Simplify Docs')
     st.sidebar.subheader("Instructions")
     st.sidebar.markdown("""
-        Simplifly is an application that helps you understand complex documents by converting them into simpler, easy-to-understand explanations. 
+        Simplify Docs is an application that helps you understand complex documents by converting them into simpler, easy-to-understand explanations. 
         Follow these steps to get started:
 
         1. :open_file_folder: **Upload an Image or Document**: Click the 'Browse files' button to upload an image (png, jpeg, jpg) or a PDF document.
