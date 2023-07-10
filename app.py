@@ -140,8 +140,7 @@ def main():
                             response = translate_text(response, languages[language])
                     st.subheader("Explanation:")
                     st.markdown(response)
-                    if st.button('Play Audio'):
-                        play(audio)
+                    st.audio(audio)
 
     except Exception as e:
         st.error(f'An error occurred: {str(e)}')
